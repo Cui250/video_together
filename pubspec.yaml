@@ -1,0 +1,62 @@
+name: video_together
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+
+dependencies:
+  path_provider: ^2.1.5
+  video_thumbnail: ^0.5.6
+  video_player: ^2.10.0
+  path: ^1.9.1
+  cached_network_image: ^3.4.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  intl: ^0.20.2
+  flutter_slidable: ^4.0.0
+  build_runner: ^2.5.0
+  hive_generator: ^2.0.1
+
+  # 保持屏幕常亮
+#  wakelock_plus: ^1.3.2
+
+  # 屏幕亮度控制
+#  screen_brightness: ^2.1.4
+
+  # 音频播放（用于音量控制）
+#  audioplayers: ^6.5.0
+
+
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/videos/
+    - assets/gallery/
+    - assets/videos/01test.mp4
+    - assets/videos/02test.mp4
+
+
+  uses-material-design: true
+
